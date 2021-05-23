@@ -1,8 +1,7 @@
 # laravel-jwt
 laravel rest api with jwt
 
-HOW TO INSTALL
-===================
+# HOW TO INSTALL
 
 - Rename `.env.example` file to `.env`inside your project root and fill the database information.
   (windows wont let you do it, so you have to open your console cd your project root directory and run `mv .env.example .env` )
@@ -13,8 +12,7 @@ HOW TO INSTALL
 - Run `php artisan db:seed` to run seeders, if any.
 - Run `php artisan serve`
 
-HOW TO USE COMPOSER
-===================
+# HOW TO USE COMPOSER
 
 ```shell
 curl -s http://getcomposer.org/installer | php
